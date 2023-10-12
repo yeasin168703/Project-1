@@ -1,0 +1,103 @@
+.navbar .container img{
+    height: 40px;
+    padding-bottom: 6px;
+}
+.mr{
+    margin-left: 200px;
+}
+
+
+/* carousel section start */
+.navigation{
+    height: 550px;
+    background-color: #78853F;
+   
+}
+.navigation .banner img{
+    height: 630px;
+    padding: 30px 60px;
+}
+.content{
+    margin-left: 80px;
+}
+.btn-w{
+    background-color: white;
+    margin-left: 6px;
+}
+.btn-y{
+    background-color: yellow;
+}
+.btn-w, .btn-y{
+    height: 35px;
+    width: 120px;
+    border: none;
+}
+.navigation h4{
+    color: yellow;
+}
+.navigation .cerousel-caption, h1{
+font-weight: bold;
+}
+.navigation .cerousel-caption, p{
+    font-size: smaller;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+/* carousel section end */
+
+
+/* banner section start*/
+.col-row{
+    display: flex;
+    padding: 120px 120px 60px 120px;
+}
+.row{
+    display: flex;
+}
+.col-row .mt-4{
+    gap: 20px;
+}
+/* banner section end*/
+
+/* bg-img section start */
+.bg-img{
+    display: flex;
+}
+
+.bg-img .text{
+    background-color: #F7F7F7;
+    padding-top: 130px;
+}
+.bg-img .text button{
+    border: none;
+    background-color: yellow;
+    height: 40px;
+    width: 130px;
+}
+/* bg-img section start */
+
+/* carousel-2 start */
+.caro-container{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 3rem;
+
+}
+.caro-container .caro-img{
+    width: 250px!important;
+    margin: auto;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #78853F;
+}
+.carousel-control-prev{
+    left: 10%!important;
+}
+.carousel-control-next{
+    right: 10%!important;
+}
+/* carousel-2 end */
